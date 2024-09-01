@@ -5,7 +5,7 @@ import app from './app.js';
 import connectToDb from './config/db.js';
 import Razorpay from 'razorpay';
 
-const PORT = process.env.SERVER_PORT
+const PORT = process.env.PORT || 4000
 
 v2.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
